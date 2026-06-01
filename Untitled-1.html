@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card NAMJOON</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1bc0ea;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Layout utama */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Bagian kiri (card) */
+.left {
+    flex: 2;
+}
+
+/* Card */
+.card {
+    background: #306bd1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-content h2 {
+    margin: 0;
+}
+
+.info {
+    margin: 5px 0;
+}
+
+.badge {
+    background: #ddd;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.read-more {
+    color: #333;
+    font-size: 13px;
+    float: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Sidebar kanan */
+.right {
+    flex: 1;
+    background: #fff;
+    padding: 14px;
+    border-radius: 9px;
+}
+
+.right h3 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+#header img {
+    height: 50px;       
+    width: auto;        
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header div {
+    display: flex;
+    align-items: center;
+}
+
+#menu-utama {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    gap: 15px;
+}
+</style>
+
+</head>
+<body>
+<div id="wrapper">
+        <div id="header">
+            <div style="display: flex; align-items: center;">
+                <img src="logo1.jpg" alt="logo" />
+                <ul id="menu-utama">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">NAMJOON</a></li>
+                    <li><a href="#">Update</a></li>
+                </ul>
+            </div>
+            <form>
+                <input type="text" name="search" placeholder="search" />
+            </form>
+        </div>
+<div class="container">
+
+    <!-- KIRI -->
+    <div class="left">
+
+        <!-- CARD 1 -->
+        <div class="card">
+            <img src="kim1.jpg" alt="kim1">
+            <div class="card-content">
+                <h2>lagu yang ditulis</h2>
+                <div class="info">
+                    <span class="badge">23 Mar 2025</span>
+                    <span class="badge">Views: 9,123,456</span>
+                </div>
+                <p>namjoon mendapatkan banyak pujian karna kontribusinya dalam menulis dan memperoduksi lebih dari 200 lagu BTS</p>
+                <span class="read-more">Read More</span>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+            <img src="namjoon1.jpg" alt="namjoon1">
+            <div class="card-content">
+                <h2>kim namjoon BTS</h2>
+                <div class="info">
+                    <span class="badge">2025</span>
+                    <span class="badge">Views: 5,987,120</span>
+                </div>
+                <p>KIM NAMJOON,member BTS di bawah bigh hit music dikenal sebagai rapper, yang memiliki suara bariton yang berat</p>
+                <span class="read-more">Read More</span>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+            <img src="lanscap namjoon 1.jpg" alt="namjoon2">
+            <div class="card-content">
+                <h2>tangan ajaib namjoon</h2>
+                <div class="info">
+                    <span class="badge">2024</span>
+                    <span class="badge">Views: 3,487,497</span>
+                </div>
+                <p>namjoon ia terkenal sebagai dewa penghancur karena ia terkenal suka merusak dan menghancurkan barang barang karena kecerobohan semata.</p>
+                <span class="read-more">Read More</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- KANAN -->
+    <div class="right">
+        <h3>who we are?</h3>
+        <p>kim namjoon adalah seorang rapper, penulis lagu,dan produser rekaman asal korea selatan ia di kenal sebagai pemimpin (leader)da rapper utama dari grup vokal BTS.</p>
+
+        <h3>Detail</h3>
+        <ul>
+            <li>Nama: kim namjoon</li>
+            <li>Posisi: leader, pemain rapper</li>
+            <li>Tanggal Lahir: 12 september 1994</li>
+            <li>Asal: dongjak-gu,seul</li>
+            <li>Grup: BTS</li>
+        </ul>
+    </div>
+
+</div>
+<footer class="footer">
+NAMJOON LOVERS by CATLOVERS 
+</footer>
+
+<style>
+.footer {
+    background-color: #886df1;
+    padding: 15px;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    color: #f8f7f7;
+}
+</style>
+</body>
+</html>
